@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Dinesh Hona - CV</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: Arial, sans-serif; font-size: 13px; color: #222; background: #fff; }
+  .page { max-width: 900px; margin: 0 auto; padding: 36px 40px; }
+
+  /* Header */
+  .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 24px; }
+  .header-left h1 { font-size: 32px; font-weight: bold; color: #002a7e; }
+  .header-left .title { font-size: 14px; color: #3a7bd5; font-weight: bold; margin: 4px 0 8px; }
+  .header-left .contacts { font-size: 12px; color: #444; line-height: 1.8; }
+  .header-left .contacts a { color: #3a7bd5; text-decoration: none; }
+  .header-right img { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; }
+
+  /* Two column layout */
+  .body { display: flex; gap: 32px; }
+  .col-left { flex: 3; }
+  .col-right { flex: 2; }
+
+  /* Section */
+  .section { margin-bottom: 22px; }
+  .section-title {
+    font-size: 11px; font-weight: bold; letter-spacing: 1.2px;
+    text-transform: uppercase; color: #888;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 4px; margin-bottom: 14px;
+  }
+
+  /* Job entry */
+  .job { margin-bottom: 18px; }
+  .job-title { font-size: 14px; font-weight: bold; color: #002a7e; }
+  .job-meta { font-size: 12px; color: #555; margin: 2px 0 6px; }
+  .job-meta span.company { font-weight: bold; color: #3a7bd5; }
+  .job ul { padding-left: 18px; }
+  .job ul li { margin-bottom: 4px; line-height: 1.5; color: #333; font-size: 12.5px; }
+
+  /* Education entry */
+  .edu { margin-bottom: 14px; }
+  .edu-degree { font-size: 13px; font-weight: bold; color: #3a7bd5; }
+  .edu-school { font-size: 12px; color: #3a7bd5; font-weight: bold; margin: 2px 0; }
+  .edu-meta { font-size: 11.5px; color: #666; }
+
+  /* Course entry */
+  .course { margin-bottom: 10px; }
+  .course-name { font-size: 12.5px; font-weight: bold; color: #3a7bd5; }
+  .course-org { font-size: 11.5px; color: #666; font-style: italic; }
+
+  /* Skills */
+  .skill-category { margin-bottom: 10px; }
+  .skill-category-name { font-size: 12px; font-weight: bold; color: #444; margin-bottom: 4px; }
+  .skill-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+  .skill-tag {
+    background: #eaf0fb; color: #3a7bd5; border-radius: 3px;
+    padding: 2px 8px; font-size: 11.5px; font-weight: 500;
+  }
+
+  /* Summary */
+  .summary p { font-size: 12.5px; line-height: 1.65; color: #333; }
+
+  @media print {
+    body { font-size: 12px; }
+    .page { padding: 20px 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <h1>Dinesh Hona</h1>
+      <div class="title">Principal Software Engineer | C# Expert | Database</div>
+      <div class="contacts">
+        &#9990; +9779841735201 &nbsp;
+        ✉ <a href="mailto:dinesh.hona@gmail.com">dinesh.hona@gmail.com</a> &nbsp;
+        &#128279; <a href="https://www.linkedin.com/in/dineshhona/">linkedin.com/in/dineshhona</a><br/>
+        &#128205; Madhyapur Thimi, Bode, Bhaktapur, Nepal
+      </div>
+    </div>
+  </div>
+
+  <div class="body">
+
+    <!-- Left Column: Experience -->
+    <div class="col-left">
+
+      <div class="section">
+        <div class="section-title">Experience</div>
+
+        <!-- CURRENT JOB -->
+        <div class="job">
+          <div class="job-title">Senior Software Engineer</div>
+          <div class="job-meta">
+            <span class="company">Avionte</span> &nbsp; 05/2025 - Present &nbsp; | &nbsp; Kathmandu, Nepal (Remote)
+          </div>
+          <ul>
+            <li>Developing and maintaining enterprise-grade features on a staffing and talent management SaaS platform using .NET Framework, .NET Core, and Angular.</li>
+      <li>Designed and consumed RESTful APIs integrating multiple third-party services including background check providers, payroll systems, tax compliance platforms, and partner APIs.</li>
+      <li>Built and maintained background job processing pipelines using Hangfire and Redis for scheduled tasks, async operations, and high-volume data processing.</li>
+      <li>Worked across the full stack: C# .NET backend with Dapper and SQL Server, and an Angular</li>
+      <li>Contributed to API design and contract standardization for partner-facing integrations, ensuring reliability and backward compatibility.</li>
+          </ul>
+        </div>
+
+        <!-- Previous jobs -->
+        <div class="job">
+          <div class="job-title">Principal Software Engineer</div>
+          <div class="job-meta">
+            <span class="company">Teksewa LLC</span> &nbsp; 09/2019 - 02/2025 &nbsp; | &nbsp; Utah, USA (3731 W South Jordan Pkwy, Ste 102-407)
+          </div>
+          <ul>
+            <li>Developed and implemented a new software architecture, resulting in a 30% reduction in response time.</li>
+            <li>Led a team of 10 engineers in the design and development of a web-based application.</li>
+            <li>Provided technical guidance and mentorship to junior software engineers.</li>
+            <li>Redesigned the database of the legacy project.</li>
+            <li>Fixed bugs and added new features across multiple modules.</li>
+            <li>Optimized ETL pipelines and scheduled jobs in Linux.</li>
+            <li>Integrated ChatGPT into the system.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-title">Chief Technical Officer</div>
+          <div class="job-meta">
+            <span class="company">Danfe Solution Pvt. Ltd.</span> &nbsp; 02/2018 - 05/2019 &nbsp; | &nbsp; Gairidhara, Kathmandu, Nepal
+          </div>
+          <ul>
+            <li>Gathered and analyzed business and technical requirements through stakeholders and meetings.</li>
+            <li>Researched and introduced emerging technologies to enhance system performance and business efficiency.</li>
+            <li>Provided technical guidance to development teams on best practices, frameworks, and tools.</li>
+            <li>Developed, implemented, and managed technical policies, procedures, and best practices.</li>
+            <li>Facilitated the successful integration of multiple software applications into a single unified platform.</li>
+            <li>Grew customer base from 3 to 150+.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-title">Senior Software Engineer</div>
+          <div class="job-meta">
+            <span class="company">Verisk Nepal</span> &nbsp; 09/2011 - 02/2018 &nbsp; | &nbsp; Hattisar, Kathmandu, Nepal
+          </div>
+          <ul>
+            <li>Worked for Argus Information &amp; Advisory Services.</li>
+            <li>Data import/export and data loading automation.</li>
+            <li>Data migration between servers (PII to Non-PII).</li>
+            <li>Data monitoring, validation, and analysis.</li>
+            <li>Report generation and production issue troubleshooting.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-title">Team Leader</div>
+          <div class="job-meta">
+            <span class="company">Braindigit IT Solutions</span> &nbsp; 05/2009 - 07/2011 &nbsp; | &nbsp; Putalisadak, Kathmandu, Nepal
+          </div>
+          <ul>
+            <li>Managed daily operations for a team of 20, including training, performance management, and conflict resolution.</li>
+            <li>Coordinated between team members; led requirement analysis and research.</li>
+            <li>Database design for applications and data access logic definition.</li>
+            <li>Managed web servers, training, troubleshooting, and client support via control panel and FTP.</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-title">Web Programmer</div>
+          <div class="job-meta">
+            <span class="company">Tulips Technologies Pvt. Ltd.</span> &nbsp; 03/2008 - 03/2009 &nbsp; | &nbsp; Bijulibazaar, Kathmandu, Nepal
+          </div>
+          <ul>
+            <li>Designed and developed database-oriented web applications.</li>
+            <li>Collected requirements and directed application flow.</li>
+            <li>Created admin panels, web chat using JavaScript and web services, and government web accounting systems.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Right Column: Summary, Education, Courses -->
+    <div class="col-right">
+<div class="section">
+        <div class="section-title">Summary</div>
+        <div class="summary">
+          <p>
+            Innovative Principal Software Engineer with a strong background in software architecture, design, and development.
+            Experienced in leading successful projects from concept to completion. Strong interest in web technologies, relational
+            database design, and database programming. A fast learner with excellent adaptability.
+            Scrum Master Certified and Certified Scrum Developer. Over 13 years of experience in SQL Server programming
+            and more than 10 years in Web Application development with C# programming.
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-title">Skills</div>
+
+        <div class="skill-category">
+          <div class="skill-category-name">Languages</div>
+          <div class="skill-tags">
+            <span class="skill-tag">C#</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-name">Frameworks &amp; Libraries</div>
+          <div class="skill-tags">
+            <span class="skill-tag">.NET Framework</span>
+            <span class="skill-tag">.NET Core</span>
+            <span class="skill-tag">Angular</span>
+            <span class="skill-tag">Dapper</span>
+            <span class="skill-tag">Entity Framework</span>
+            <span class="skill-tag">SignalR</span>
+            <span class="skill-tag">Hangfire</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-name">Databases &amp; Caching</div>
+          <div class="skill-tags">
+            <span class="skill-tag">SQL Server</span>
+            <span class="skill-tag">Redis</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-name">Tools &amp; Platforms</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">NUnit</span>
+            <span class="skill-tag">Moq</span>
+            <span class="skill-tag">ETL</span>
+            <span class="skill-tag">ChatGPT / AI Integration</span>
+            <span class="skill-tag">Claude</span>
+            <span class="skill-tag">Copilot</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-name">Methodologies</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Scrum</span>
+            <span class="skill-tag">Agile</span>
+            <span class="skill-tag">Team Leadership</span>
+            <span class="skill-tag">Mentoring</span>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="section">
+        <div class="section-title">Education</div>
+
+        <div class="edu">
+          <div class="edu-degree">Bachelor of Engineering, Computer</div>
+          <div class="edu-school">Kantipur City College</div>
+          <div class="edu-meta">09/2003 - 12/2007 &nbsp; Putalisadak, Kathmandu, Nepal</div>
+        </div>
+
+        <div class="edu">
+          <div class="edu-degree">Higher Secondary, Science</div>
+          <div class="edu-school">Lalitpur College</div>
+          <div class="edu-meta">05/2001 - 04/2002 &nbsp; Kupondole, Lalitpur</div>
+        </div>
+
+        <div class="edu">
+          <div class="edu-degree">School Leaving Certificate</div>
+          <div class="edu-school">Lisha English Secondary School</div>
+          <div class="edu-meta">04/2000 &nbsp; Chyamasingh, Bhaktapur</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Courses</div>
+
+        <div class="course">
+          <div class="course-name">Management 3.0 Foundation, 4/2023</div>
+          <div class="course-org">management30.com</div>
+        </div>
+        <div class="course">
+          <div class="course-name">Anti-Bribery and Corruption Training, 9/2016</div>
+          <div class="course-org">Verisk Information Technologies</div>
+        </div>
+        <div class="course">
+          <div class="course-name">BF18099 - HIPAA Privacy &amp; Security - (A) Business Associates III V5, 9/2016</div>
+          <div class="course-org">BridgeFront Online Education</div>
+        </div>
+        <div class="course">
+          <div class="course-name">AWS Fundamental, 2015</div>
+          <div class="course-org">Verisk Information Technologies</div>
+        </div>
+        <div class="course">
+          <div class="course-name">Scrum Master Certificate (SMC), 11/2013</div>
+          <div class="course-org">Verisk Information Technologies, Hattisar</div>
+        </div>
+        <div class="course">
+          <div class="course-name">Certified Scrum Developer, 12/2012</div>
+          <div class="course-org">CeeZone</div>
+        </div>
+        <div class="course">
+          <div class="course-name">Cisco Certified Network Associates (CCNA), 2/2008</div>
+          <div class="course-org">Kantipur City College, Putalisadak, Kathmandu</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</body>
+</html>
